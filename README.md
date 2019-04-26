@@ -3,7 +3,7 @@
 
 安装扩展:
 
-	composer require firstphp/chuanglan-sms:"1.1"
+	composer require firstphp/chuanglan-sms
 
 
 注册服务:
