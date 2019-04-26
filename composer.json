@@ -1,0 +1,23 @@
+{
+    "name": "firstphp/chuanglan-sms",
+    "description": "创蓝253云通信",
+    "type": "library",
+    "keywords": ["创蓝", "创蓝253云通信", "创蓝短信", "短信"],
+    "homepage": "http://www.firstphp.com/",
+    "license": "MIT",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "狂奔的蚂蚁",
+            "email": "firstphp@firstphp.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3",
+        "guzzlehttp/guzzle": "^6.0"
+    },
+    "autoload": {
+        "psr-4": { "Firstphp\\ChuanglanSms\\": "./src" }
+    }
+}
