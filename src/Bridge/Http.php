@@ -55,9 +55,17 @@ class Http
             $arguments[0] .= (stripos($arguments[0], '?') ? '&' : '?') . 'pswd=' . $this->pswd;
         }
 
-        $response = json_decode($this->client->$name($arguments[0], $arguments[1])->getBody()->getContents(), true);
+        $response = $this->client->$name($arguments[0], $arguments[1])->getBody()->getContents();
+        return $this->execResult($response);
+    }
 
-        return $response;
+
+    /**
+     * 处理返回值
+     */
+    public function execResult($result){
+        $result=preg_split("/[,\r\n]/",$result);
+        return $result;
     }
 
 

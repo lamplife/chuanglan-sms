@@ -1,5 +1,5 @@
 # chuanglan-sms
-创蓝253云通信
+创蓝253云通信 support in Laravel
 
 安装扩展:
 
