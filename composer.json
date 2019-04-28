@@ -1,6 +1,6 @@
 {
     "name": "firstphp/chuanglan-sms",
-    "description": "创蓝253云通信",
+    "description": "创蓝253云通信 support in Laravel",
     "type": "library",
     "keywords": ["创蓝", "创蓝253云通信", "创蓝短信", "短信"],
     "homepage": "http://www.firstphp.com/",
